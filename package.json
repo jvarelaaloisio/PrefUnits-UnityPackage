@@ -1,0 +1,23 @@
+{
+  "name": "com.jvarelaaloisio.prefs",
+  "displayName": "Pref Units",
+  "description": "A simple extension on Unity's prefs system that allows for easier control and leads to cleaner code.",
+  "version": "0.0.1",
+  "unity": "2020.3",
+  "author": {
+    "name": "Juan Pablo Varela Aloisio",
+    "email": "juampyvarela@gmail.com",
+    "url": "https://github.com/jvarelaaloisio"
+  },
+  "keywords": [
+    "pref",
+    "prefs",
+    "playerPref",
+    "editorPref"
+  ],
+  "repository": {
+    "url": "https://github.com/jvarelaaloisio/UnityPackage-PrefUnits",
+    "type": "git"
+  },
+  "documentationUrl": ""
+}
