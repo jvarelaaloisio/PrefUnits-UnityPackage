@@ -3,7 +3,7 @@ A simple extension on Unity's prefs system that allows for easier control and le
 ## How to use
 A pref unit is an object that contains a value and it's corresponding key (Basically, a key-value pair object) that interfaces with a pref database
 This pref is injected in construction with:
-  - *Prefs* (IPrefs): An object implementing IPrefs, which functions as an interface to either PlayerPrefs, EditorPrefs, or any other prefs library that the user wishes to implement.
+  - *Prefs* ((IPrefs)[https://github.com/jvarelaaloisio/UnityPackage-PrefUnits/edit/main/README.md#reasoning-behind-the-iprefs-interface]): An object implementing IPrefs, which functions as an interface to either PlayerPrefs, EditorPrefs, or any other prefs library that the user wishes to implement.
   - *Key* (string): The key that will be used to get and set the values on Load/Save.
   - *Default Value* (T): The value to set when first constructing the object and before loading/trying to load the corresponding value.
 ## Out of the box implementations
